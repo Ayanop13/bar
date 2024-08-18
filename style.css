@@ -122,5 +122,12 @@ img {
         display: block;
         width: 44px;
         height: 34px;
+        background-image: url(../junisoImages/icon-menu.png);
+        background-size: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        border-radius: 0;
+        outline: none;
     }
 }
