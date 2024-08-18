@@ -75,3 +75,14 @@ img {
     font-weight: bold;
     margin-top: 90px;
 }
+
+@media (max-width: 800px) {
+    .site-menu ul {
+        display: block;
+        text-align: center;
+    }
+
+    .site-menu li {
+        margin-top: 20px;
+    }
+}
