@@ -39,4 +39,39 @@ img {
     padding-right: 40px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.toggle-menu-button {
+    display: none;
+}
+
+.header-logo {
+    display: block;
+    width: 170px;
+}
+
+.site-menu ul {
+    display: flex;
+}
+
+.site-menu ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.site-menu ul li a {
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 90px;
 }
