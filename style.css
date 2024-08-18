@@ -117,4 +117,10 @@ img {
         padding-top: 30px;
         padding-bottom: 50px;
     }
+
+    .toggle-menu-button {
+        display: block;
+        width: 44px;
+        height: 34px;
+    }
 }
