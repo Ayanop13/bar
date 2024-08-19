@@ -1,9 +1,22 @@
 @charset "utf-8";
 
 .first-view {
-    height: calc(100vh - 110px);
-    background-image: url(junisoImages/main.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-view-inner {
+    max-width: 800px;
+    text-align: center;
+}
+
+.first-view-text {
+    margin: 0;
+}
+
+.first-view-text h1 {
+    font-size: 3rem;
+    line-height: 1.2;
 }
