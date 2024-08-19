@@ -27,7 +27,7 @@ body {
 }
 
 img {
-    max-wifth: 100%;
+    max-width: 100%;
 }
 
 .header-inner {
@@ -116,7 +116,13 @@ img {
         background-color: #817e77;
         padding-top: 30px;
         padding-bottom: 50px;
+        display: none;
     }
+
+    .header-site-menu.is-show {
+        display: block;
+    }
+
 
     .toggle-menu-button {
         display: block;
@@ -129,5 +135,13 @@ img {
         background-color: transparent;
         border-radius: 0;
         outline: none;
+    }
+
+    .main {
+        padding-top: 50px;
+    }
+
+    .copyright {
+        margin-top: 50px;
     }
 }
