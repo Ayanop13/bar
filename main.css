@@ -137,22 +137,21 @@ img {
         outline: none;
     }
 
-    .main {
-        padding-top: 50px;
-    }
+    .main {}
 
     .copyright {
         margin-top: 50px;
     }
 }
 
-
+/*
 .main {
     height: calc(100vh - 110px);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+*/
 
 .first-view {
     display: flex;
@@ -166,6 +165,14 @@ img {
     max-width: 800px;
     text-align: center;
     padding: 0 20px;
+}
+
+.main-image {
+    border: 2px solid #000;
+    background: url(junisoImages/main.jpg) no-repeat 0 0 / cover;
+    width: 100%;
+    /*16:9にするため、9÷16×100％＝56.25% */
+    padding-top: 56%;
 }
 
 .first-view-text {
