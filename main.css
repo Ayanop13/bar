@@ -175,6 +175,12 @@ img {
     padding-top: 56%;
 }
 
+/* TODO 画像サイズを変更 */
+.icon-image {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .first-view-text {
     margin: 0;
 }
