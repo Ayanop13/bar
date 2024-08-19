@@ -145,3 +145,34 @@ img {
         margin-top: 50px;
     }
 }
+
+
+.main {
+    height: calc(100vh - 110px);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.first-view-inner {
+    max-width: 800px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.first-view-text {
+    margin: 0;
+}
+
+.first-view-text h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
