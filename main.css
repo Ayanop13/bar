@@ -199,3 +199,9 @@ h1 {
     margin-bottom: 50px;
     line-height: 150%;
 }
+
+.recommended {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+}
