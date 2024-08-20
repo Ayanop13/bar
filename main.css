@@ -182,10 +182,17 @@ img {
 }
 
 h1 {
+
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     font-size: 2.5rem;
     line-height: 1.5;
-    /* 例: フォントサイズの1.5倍 */
 }
+
+/* 例: フォントサイズの1.5倍 */
+
 
 .first-view-description {
     margin-top: 50px;
