@@ -200,8 +200,44 @@ h1 {
     line-height: 150%;
 }
 
+
+
 .recommended {
     display: flex;
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 50px;
+}
+
+
+.recommended-list-right dt {
+    margin-left: 50px;
+    font-weight: 400;
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+
+.recommended-list-right dd {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.recommended-list-left dt {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    font-weight: 400;
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.recommended-list-left dd {
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
