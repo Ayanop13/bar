@@ -226,9 +226,8 @@ h1 {
 }
 
 .recommended-list-left dt {
+    text-align: right;
     margin-right: 50px;
-    margin-left: 50px;
-    margin-bottom: 100px;
     font-weight: 400;
     font-family: "Noto Serif JP", serif;
     font-optical-sizing: auto;
@@ -240,4 +239,9 @@ h1 {
     margin-right: 50px;
     margin-top: 20px;
     margin-bottom: 100px;
+}
+
+.recommended-image {
+    width: 500px;
+    height: 400px;
 }
