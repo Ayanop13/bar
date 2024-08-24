@@ -246,7 +246,8 @@ h1 {
     height: 400px;
 }
 
-.link-button-area {
+.menu-button {
     text-align: right;
-    margin-top: 40px;
+    padding: 15px;
+    margin-top: 15px;
 }
