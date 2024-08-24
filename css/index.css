@@ -128,7 +128,7 @@ img {
         display: block;
         width: 44px;
         height: 34px;
-        background-image: url(junisoImages/icon-menu.png);
+        background-image: url(/image/icon-menu.png);
         background-size: 50%;
         background-position: center;
         background-repeat: no-repeat;
@@ -137,11 +137,116 @@ img {
         outline: none;
     }
 
-    .main {
-        padding-top: 50px;
-    }
+    .main {}
 
     .copyright {
         margin-top: 50px;
     }
+}
+
+/*
+.main {
+    height: calc(100vh - 110px);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+
+.first-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.first-view-inner {
+    max-width: 800px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.main-image {
+    border: 2px solid #000;
+    background: url(/image/main.jpg) no-repeat 0 0 / cover;
+    width: 100%;
+    /*16:9にするため、9÷16×100％＝56.25% */
+    padding-top: 56%;
+}
+
+/* TODO 画像サイズを変更 */
+.icon-image {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1 {
+
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+/* 例: フォントサイズの1.5倍 */
+
+
+.first-view-description {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 150%;
+}
+
+
+
+.recommended {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+
+
+.recommended-list-right dt {
+    margin-left: 50px;
+    font-weight: 400;
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+
+.recommended-list-right dd {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.recommended-list-left dt {
+    text-align: right;
+    margin-right: 50px;
+    font-weight: 400;
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.recommended-list-left dd {
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.recommended-image {
+    width: 500px;
+    height: 400px;
+}
+
+.link-button-area {
+    text-align: right;
+    margin-top: 40px;
 }
