@@ -265,3 +265,17 @@ h1 {
     justify-content: flex-end;
     margin-right: 50px;
 }
+
+.news-container {
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.line li {
+    border-bottom: 1px solid;
+    color: white;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
