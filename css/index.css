@@ -280,7 +280,16 @@ h1 {
     margin-bottom: 7px;
 }
 
+.access {
+    text-align: center;
+}
+
 .google-map {
     display: flex;
     justify-content: center;
+}
+
+.address {
+    text-align: center;
+
 }
