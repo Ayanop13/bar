@@ -207,6 +207,8 @@ h1 {
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -221,8 +223,11 @@ h1 {
 
 
 .recommended-list-right dd {
+    font-size: 1.2rem;
+    width: 300px;
     margin-left: 50px;
     margin-top: 20px;
+
 }
 
 .recommended-list-left dt {
@@ -236,17 +241,27 @@ h1 {
 }
 
 .recommended-list-left dd {
+    font-size: 1.2rem;
+    width: 300px;
     margin-right: 50px;
     margin-top: 20px;
     margin-bottom: 100px;
 }
 
 .recommended-image {
-    width: 500px;
-    height: 400px;
+    width: 25%;
+    height: 40%;
 }
 
-.link-button-area {
-    text-align: right;
-    margin-top: 40px;
+.menu-button {
+    padding: 15px;
+    margin-top: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.common-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
 }
