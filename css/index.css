@@ -249,9 +249,12 @@ h1 {
 .menu-button {
     padding: 15px;
     margin-top: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .common-button {
     display: flex;
     justify-content: flex-end;
+    margin-right: 50px;
 }
