@@ -270,12 +270,12 @@ h1 {
     text-align: center;
     align-items: center;
     margin: 0 auto;
+    width: 400px;
 }
 
 .line li {
     border-bottom: 1px solid;
     color: white;
-    width: 700px;
     margin-top: 7px;
     margin-bottom: 7px;
 }
