@@ -263,6 +263,23 @@ h1 {
     margin-bottom: 7px;
 }
 
+.garlley {
+    text-align: center;
+}
+
+.garlley-container {
+    display: flex;
+    width: 20%;
+    height: 35%;
+    margin-top: 7px;
+    margin-bottom: 60px;
+}
+
+.garlley-container img {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
 .access {
     text-align: center;
 }
