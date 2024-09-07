@@ -123,7 +123,6 @@ img {
         display: block;
     }
 
-
     .toggle-menu-button {
         display: block;
         width: 44px;
@@ -143,15 +142,6 @@ img {
         margin-top: 50px;
     }
 }
-
-/*
-.main {
-    height: calc(100vh - 110px);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-*/
 
 .first-view {
     display: flex;
@@ -182,7 +172,6 @@ img {
 }
 
 h1 {
-
     font-family: "Noto Serif JP", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -192,15 +181,11 @@ h1 {
 }
 
 /* 例: フォントサイズの1.5倍 */
-
-
 .first-view-description {
     margin-top: 50px;
     margin-bottom: 50px;
     line-height: 150%;
 }
-
-
 
 .recommended {
     display: flex;
@@ -211,7 +196,6 @@ h1 {
     align-items: center;
 }
 
-
 .recommended-list-right dt {
     margin-left: 50px;
     font-weight: 400;
@@ -220,7 +204,6 @@ h1 {
     font-size: 2.5rem;
     line-height: 1.5;
 }
-
 
 .recommended-list-right dd {
     font-size: 1.2rem;
@@ -278,4 +261,25 @@ h1 {
     color: white;
     margin-top: 7px;
     margin-bottom: 7px;
+}
+
+.access {
+    text-align: center;
+}
+
+.google-map {
+    display: flex;
+    justify-content: center;
+}
+
+.address {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    line-height: 150%;
+}
+
+.opening-hours {
+    text-align: center;
+    margin-bottom: 50px;
 }
