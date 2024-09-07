@@ -232,8 +232,8 @@ h1 {
 }
 
 .recommended-image {
-    width: 25%;
-    height: 40%;
+    width: 35%;
+    height: 50%;
 }
 
 .menu-button {
@@ -261,6 +261,25 @@ h1 {
     color: white;
     margin-top: 7px;
     margin-bottom: 7px;
+}
+
+.garlley {
+    text-align: center;
+}
+
+.garlley-container {
+    display: flex;
+    margin-top: 7px;
+    margin-bottom: 60px;
+    overflow-x: scroll;
+}
+
+.garlley-container img {
+    width: 350px;
+    height: 350px;
+    margin-right: 25px;
+    margin-left: 25px;
+    flex-shrink: 0;
 }
 
 .access {
