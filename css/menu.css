@@ -219,13 +219,20 @@ h4 {
     margin-bottom: 50px;
 }
 
+.garlley {
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 .garlley-container {
-    width: 800px;
     display: flex;
 }
 
-.garlley {
-    width: 5%;
-    height: 15%;
-    padding: 60px;
+.garlley-container img {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
