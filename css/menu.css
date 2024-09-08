@@ -218,3 +218,14 @@ h4 {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.garlley-container {
+    width: 800px;
+    display: flex;
+}
+
+.garlley {
+    width: 5%;
+    height: 15%;
+    padding: 60px;
+}
