@@ -127,7 +127,7 @@ img {
         display: block;
         width: 44px;
         height: 34px;
-        background-image: url(./image/icon-menu.png);
+        background-image: url(../image/icon-menu.png);
         background-size: 50%;
         background-position: center;
         background-repeat: no-repeat;
@@ -159,13 +159,12 @@ img {
 
 .main-image {
     border: 2px solid #000;
-    background: url(./image/main.jpg) no-repeat 0 0 / cover;
+    background: url(../image/main.jpg) no-repeat 0 0 / cover;
     width: 100%;
     /*16:9にするため、9÷16×100％＝56.25% */
     padding-top: 56%;
 }
 
-/* TODO 画像サイズを変更 */
 .icon-image {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -180,7 +179,6 @@ h1 {
     line-height: 1.5;
 }
 
-/* 例: フォントサイズの1.5倍 */
 .first-view-description {
     margin-top: 50px;
     margin-bottom: 50px;
