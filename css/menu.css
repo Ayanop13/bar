@@ -161,8 +161,15 @@ h2 {
 h4 {
     text-align: center;
     font-size: 1.2rem;
+    justify-content: center;
 }
 
+.menu-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 .menu-title {
     text-align: center;
@@ -170,17 +177,36 @@ h4 {
 }
 
 .menu-item {
-    width: 300px;
+    width: 800px;
 }
 
-.menu-container {
+.price {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
+.menu-snack {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 800px;
+    line-height: 50px;
+}
 
-.preice {
-    text-align: end;
+.li {
+    float: left;
+}
+
+.snack-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-cigar {
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 1000px;
 }
 
 .caution-note {
